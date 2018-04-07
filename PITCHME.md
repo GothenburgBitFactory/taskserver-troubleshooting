@@ -183,8 +183,6 @@ This can then be verified using `taskd diagnostics`.
 
 ## Ancestor not found
 
-**ERROR: Could not find common ancestor for ... Client sync key not found.**
-
 You skipped the important step of running:
 
 ```bash
