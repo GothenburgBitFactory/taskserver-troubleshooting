@@ -155,6 +155,10 @@ As a [security product](http://gnutls.org/security.html), it is imperative that 
 
 As with many security products, GnuTLS is maintained by a responsible and quick-responding team that takes security very seriously.  Benefit from their diligence by keeping your GnuTLS up to date.
 
++++
+
+## Older GnuTLS releases
+
 We have received reports of issues with older GnuTLS releases. Specifically, version 2.12.20 has problems validating certificates under certain conditions. Newer releases have addressed memory leaks that were able to take down Taskserver.
 
 Please keep in mind that you have to recompile Taskserver completely to benefit from the new version.
