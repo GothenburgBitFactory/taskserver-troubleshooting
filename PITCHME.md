@@ -46,7 +46,11 @@ If you installed Taskwarrior using your OS's package manager, you may be sufferi
 
 Recent releases make GnuTLS support opt-out instead of opt-in, so upgrading to the latest version may help. Otherwise, you will need to build Taskwarrior from the [latest source tarball](http://taskwarrior.org/download/task-latest.tar.gz), following the instructions in the `INSTALL` file. If you are a developer, do that. If you are not, then installing a development environment is probably not something you want to do, in which case contact your OS's package maintainer.
 
-Verify that your Taskwarrior was built with GnuTLS support by running \verb+task diagnostics+:
++++
+
+## Verify GnuTLS support
+
+Verify that your Taskwarrior was built with GnuTLS support by running `task diagnostics`:
 
 ```bash
 $ task diagnostics | grep libgnutls
