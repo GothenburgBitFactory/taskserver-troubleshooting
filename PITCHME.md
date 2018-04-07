@@ -65,7 +65,6 @@ libgnutls: 3.3.18
 
 Despite the terrible wording, this means the Taskwarrior setting `taskd.server=<host>:<port>` refers to a host name that cannot be seen by Taskwarrior.
 
-
 - Is it spelled correctly?
 - Is the domain correct?
 - Is there a valid DNS resolution for the name?
