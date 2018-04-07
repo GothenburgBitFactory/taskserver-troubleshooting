@@ -118,7 +118,7 @@ The result should be something like `Verify return code: 0 (ok)`.
 
 **Could not connect to <host> <port>**
 
-When you generated certificates, you modified a \verb+vars+ file, in particular the \verb+CN=<name>+ setting. That name must match the output of  \verb+$ hostname -f+ on the server for the certificate to validate.
+When you generated certificates, you modified a `vars` file, in particular the `CN=<name>` setting. That name must match the output of  $ hostname -f+ on the server for the certificate to validate.
 
 ```bash
 $ certtool -i < server.cert.pem | grep Subject:
