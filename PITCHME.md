@@ -228,7 +228,7 @@ Read the output of the `diagnostics` commands carefully, there may be several ty
 
 +++
 
-## Debug Mode
+## Taskserver Debug Mode
 
 The next step would be to run the server in debug mode. First shutdown your Taskserver, then launch it interactively:
 
