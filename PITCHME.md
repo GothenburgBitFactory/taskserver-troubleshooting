@@ -213,6 +213,10 @@ You may wish to try and debug the problem yourself. You will probably not. But i
 
 Both Taskwarrior and Taskserver have a `diagnostics` command, the purpose of which is to show you relevant troubleshooting details. Additionally it will indicate problems directly, for example, it will tell you if your cert/key files are not readable. The output from `diagnostics` is intended to be included in bug reports, and doing so saves you a lot of time, because it's the first thing we'll ask for.
 
++++
+
+## task diagnostics
+
 ```bash
 $ task diagnostics
 ...
