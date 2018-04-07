@@ -172,7 +172,7 @@ $ make
 $ sudo make install
 ```
 
-This can then be verified using \verb+taskd diagnostics+.
+This can then be verified using `taskd diagnostics`.
 
 +++
 
