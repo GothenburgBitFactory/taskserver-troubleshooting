@@ -125,6 +125,10 @@ $ certtool -i < server.cert.pem | grep Subject:
 $ openssl x509 -noout -in server.cert.pem -subject
 ```
 
++++
+
+## Naming
+
 Additionally, that name must also be used in the `taskd.server=<host>:<port>` setting for Taskwarrior. Otherwise you'll need `taskd.trust=ignore hostname`.
 
 If you are using a self-signed certificate, did you specify it using the `taskd.ca` setting?
