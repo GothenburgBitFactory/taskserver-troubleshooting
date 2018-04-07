@@ -4,9 +4,9 @@ Searching for failures with your Taskserver setup.
 
 ---
 
-# Troubleshooting Sync
+## Troubleshooting Sync
 
----
++++
 
 ## Sync Problems
 
