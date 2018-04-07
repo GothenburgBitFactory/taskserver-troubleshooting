@@ -110,6 +110,10 @@ $ openssl s_client -CAfile .task/ca.cert.pem -host HOST -port PORT
 
 The result should be something like `Verify return code: 0 (ok)`.
 
++++
+
+## Examples for Handshake errors
+
 **Certificate fails validation, Handshake failed**
 
 **Could not connect to <host> <port>**
