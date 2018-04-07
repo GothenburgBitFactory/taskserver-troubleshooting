@@ -143,8 +143,6 @@ Setting `taskd.ciphers` can force the use of different ciphers. Use `gnutls-cli 
 
 ## Certificate still valid?
 
-**Is your certificate still valid?**
-
 Certificates have expiration dates, and if you followed our instructions, you created a certificate that is valid for one year.  Check your certificate with this command:
 
 ```bash
