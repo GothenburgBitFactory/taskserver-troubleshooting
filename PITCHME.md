@@ -161,8 +161,6 @@ Note that creating certificates that never expire is a bad idea. Certificates ma
 
 ## GnuTLS outdated?
 
-**Is your GnuTLS library up to date?**
-
 As a [security product](http://gnutls.org/security.html), it is imperative that you keep your GnuTLS up to date.
 
 As with many security products, GnuTLS is maintained by a responsible and quick-responding team that takes security very seriously.  Benefit from their diligence by keeping your GnuTLS up to date.
