@@ -40,6 +40,10 @@ You are using version `2.3.0` or later, but the Taskwarrior binary was compiled 
 
 If you installed Taskwarrior using your OS's package manager, you may be suffering from an out of date package. Prod your OS's package maintainer for an update.
 
++++
+
+## GnuTLS and recent releases
+
 Recent releases make GnuTLS support opt-out instead of opt-in, so upgrading to the latest version may help. Otherwise, you will need to build Taskwarrior from the [latest source tarball](http://taskwarrior.org/download/task-latest.tar.gz), following the instructions in the `INSTALL` file. If you are a developer, do that. If you are not, then installing a development environment is probably not something you want to do, in which case contact your OS's package maintainer.
 
 Verify that your Taskwarrior was built with GnuTLS support by running \verb+task diagnostics+:
