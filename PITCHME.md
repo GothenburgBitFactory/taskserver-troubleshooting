@@ -219,7 +219,7 @@ $ taskd diagnostics
 ...
 ```
 
-Read the output of the \verb+diagnostics+ commands carefully, there may be several types of problems mentioned, which need to be addressed before going further.
+Read the output of the `diagnostics` commands carefully, there may be several types of problems mentioned, which need to be addressed before going further.
 
 +++
 
