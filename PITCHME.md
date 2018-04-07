@@ -191,9 +191,7 @@ $ task sync init
 
 This performs an initial upload of your tasks, and sets up a local sync key, which identifies the last sync transaction.
 
-**Taskwarrior before Version 2.5.1**
-
-Please note that older Taskwarrior versions only sync the \textbf{pending} tasks and not all tasks.
+Please note that older Taskwarrior versions (before 2.5.1) only sync the **pending** tasks and not all tasks.
 
 ---
 
