@@ -114,9 +114,8 @@ The result should be something like `Verify return code: 0 (ok)`.
 
 ## Examples for Handshake errors
 
-**Certificate fails validation, Handshake failed**
-
-**Could not connect to <host> <port>**
+- **Certificate fails validation, Handshake failed**
+- **Could not connect to <host> <port>**
 
 When you generated certificates, you modified a `vars` file, in particular the `CN=<name>` setting. That name must match the output of ` hostname -f` on the server for the certificate to validate.
 
