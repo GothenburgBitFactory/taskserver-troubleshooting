@@ -14,6 +14,10 @@ Here is a list of problems you may encounter, with the most common ones listed f
 
 The single most common problem has been that the Taskserver Setup Instructions were not properly followed.  Please review the steps you took.
 
++++
+
+## Versions
+
 It is always a good idea to make sure that you are using the latest release of Taskwarrior and Taskserver, not just because bugs are fixed that may help you, but also because the solutions below are geared toward the current releases.
 
 If you upgrade from an older release of Taskserver, you will need to follow the [upgrade instructions](http://taskwarrior.org/docs/taskserver/upgrade.html).
