@@ -234,7 +234,7 @@ $ taskd server
 ...
 ```
 
-You can hit \verb+Ctrl-C+ to stop this server. For highly verbose output, try this:
+You can hit `Ctrl-C` to stop this server. For highly verbose output, try this:
 
 ```bash
 $ taskd server --debug --debug.tls=2
