@@ -201,7 +201,7 @@ Please note that older Taskwarrior versions (before 2.5.1) only sync the **pendi
 
 ## Hostname and IP address
 
-There is a difference between \textit{hostname} and \textit{IP address}, honestly. We are referencing the hostname throughout the documentation because you need a valid hostname for the certificate and working name resolution for the client to connect to the server.
+There is a difference between *hostname* and *IP address*, honestly. We are referencing the hostname throughout the documentation because you need a valid hostname for the certificate and working name resolution for the client to connect to the server.
 
 **So please use the hostname where you are advised to do it!**
 
