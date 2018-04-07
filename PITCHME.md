@@ -133,6 +133,10 @@ Additionally, that name must also be used in the `taskd.server=<host>:<port>` se
 
 If you are using a self-signed certificate, did you specify it using the `taskd.ca` setting?
 
++++
+
+## Ciphers
+
 Setting `taskd.ciphers` can force the use of different ciphers. Use `gnutls-cli --list` to see a list of installed ciphers, and confirm that there is overlap between client and server. There needs to be a cipher that is available to both, otherwise they cannot communicate.
 
 +++
