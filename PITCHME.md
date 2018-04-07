@@ -210,7 +210,7 @@ There is a difference between \textit{hostname} and \textit{IP address}, honestl
 
 You may wish to try and debug the problem yourself. You will probably not. But if you do, here is how.
 
-Both Taskwarrior and Taskserver have a \verb+diagnostics+ command, the purpose of which is to show you relevant troubleshooting details. Additionally it will indicate problems directly, for example, it will tell you if your cert/key files are not readable. The output from \verb+diagnostics+ is intended to be included in bug reports, and doing so saves you a lot of time, because it's the first thing we'll ask for.
+Both Taskwarrior and Taskserver have a `diagnostics` command, the purpose of which is to show you relevant troubleshooting details. Additionally it will indicate problems directly, for example, it will tell you if your cert/key files are not readable. The output from `diagnostics` is intended to be included in bug reports, and doing so saves you a lot of time, because it's the first thing we'll ask for.
 
 ```bash
 $ task diagnostics
