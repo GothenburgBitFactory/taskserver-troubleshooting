@@ -118,7 +118,7 @@ The result should be something like `Verify return code: 0 (ok)`.
 
 **Could not connect to <host> <port>**
 
-When you generated certificates, you modified a `vars` file, in particular the `CN=<name>` setting. That name must match the output of  $ hostname -f+ on the server for the certificate to validate.
+When you generated certificates, you modified a `vars` file, in particular the `CN=<name>` setting. That name must match the output of ` hostname -f` on the server for the certificate to validate.
 
 ```bash
 $ certtool -i < server.cert.pem | grep Subject:
@@ -126,11 +126,11 @@ $ certtool -i < server.cert.pem | grep Subject:
 $ openssl x509 -noout -in server.cert.pem -subject
 ```
 
-Additionally, that name must also be used in the \verb+taskd.server=<host>:<port>+ setting for Taskwarrior. Otherwise you'll need \verb+taskd.trust=ignore hostname+.
+Additionally, that name must also be used in the `taskd.server=<host>:<port>` setting for Taskwarrior. Otherwise you'll need `taskd.trust=ignore hostname`.
 
-If you are using a self-signed certificate, did you specify it using the \verb+taskd.ca+ setting?
+If you are using a self-signed certificate, did you specify it using the `taskd.ca` setting?
 
-Setting \verb+taskd.ciphers+ can force the use of different ciphers. Use \verb+gnutls-cli --list+ to see a list of installed ciphers, and confirm that there is overlap between client and server. There needs to be a cipher that is available to both, otherwise they cannot communicate.
+Setting `taskd.ciphers` can force the use of different ciphers. Use `gnutls-cli --list` to see a list of installed ciphers, and confirm that there is overlap between client and server. There needs to be a cipher that is available to both, otherwise they cannot communicate.
 
 +++
 
