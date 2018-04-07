@@ -246,6 +246,10 @@ $ taskd server --debug --debug.tls=2
 ...
 ```
 
++++
+
+## Taskwarrior Debug Mode
+
 Similarly, Taskwarrior has a verbose debug mode, and debug TLS mode:
 
 ```bash
