@@ -149,7 +149,7 @@ Note that creating certificates that never expire is a bad idea. Certificates ma
 
 +++
 
-## GnuTLS outdated?
+## Note on GnuTLS security
 
 As a [security product](http://gnutls.org/security.html), it is imperative that you keep your GnuTLS up to date.
 
@@ -157,7 +157,7 @@ As with many security products, GnuTLS is maintained by a responsible and quick-
 
 +++
 
-## Note on GnuTLS security
+## GnuTLS outdated?
 
 We have received reports of issues with older GnuTLS releases. Specifically, version 2.12.20 has problems validating certificates under certain conditions. Newer releases have addressed memory leaks that were able to take down Taskserver.
 
