@@ -157,7 +157,7 @@ As with many security products, GnuTLS is maintained by a responsible and quick-
 
 +++
 
-## Older GnuTLS releases
+## Note on GnuTLS security
 
 We have received reports of issues with older GnuTLS releases. Specifically, version 2.12.20 has problems validating certificates under certain conditions. Newer releases have addressed memory leaks that were able to take down Taskserver.
 
