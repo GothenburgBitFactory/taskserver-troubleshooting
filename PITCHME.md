@@ -26,15 +26,11 @@ If you upgrade from an older release of Taskserver, you will need to follow the 
 
 ##  'task sync' showed task list
 
-**You tried `task sync` but Taskwarrior showed you a task list instead**
-
 You have a version of Taskwarrior older than `2.3.0`, which means there was no `sync` command, and you are seeing a list filtered by the search term 'sync'. Upgrading is the only solution.
 
 +++
 
 ## Taskwarrior without GnuTLS
-
-**You tried `task sync` and saw 'Taskwarrior was built without GnuTLS support.  Sync is not available.'**
 
 You are using version `2.3.0` or later, but the Taskwarrior binary was compiled without [GnuTLS](http://www.gnutls.org) support.
 
@@ -61,8 +57,6 @@ libgnutls: 3.3.18
 
 ## nodename nor servname provided
 
-**nodename nor servname provided, or not known**
-
 This means the Taskwarrior setting `taskd.server=<host>:<port>` refers to a host name that cannot be seen by Taskwarrior.
 
 - Is it spelled correctly?
@@ -74,8 +68,6 @@ This means the Taskwarrior setting `taskd.server=<host>:<port>` refers to a host
 
 ## Could not connect
 
-**Could not connect to <host> <port>**
-
 Taskserver may not be running on `<host>`.
 
 Check with `ps -leaf | grep taskd`.
@@ -85,8 +77,6 @@ Sometimes the error message is misleading, please check "Handshake failed" as we
 +++
 
 ## Unable to use port
-
-**Unable to use port 53589?**
 
 By default, port `53589` is used, but whichever you chose must be open on the server.
 
@@ -112,7 +102,7 @@ The result should be something like `Verify return code: 0 (ok)`.
 
 +++
 
-## Examples for Handshake errors
+## Handshake errors
 
 - **Certificate fails validation, Handshake failed**
 - **Could not connect to <host> <port>**
