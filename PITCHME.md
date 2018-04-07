@@ -151,6 +151,10 @@ $ certtool -i --infile ~/.task/<YOUR NAME>.cert.pem
 
 If your certificate has expired, you need a new one.  You may also need to regenerate expired server certificates.
 
++++
+
+## Note on validation dates
+
 Note that creating certificates that never expire is a bad idea. Certificates may be compromised. A certificate that is considered secure today, may not be considered secure in a year. Is the key length you chose something that will remain suitable in the future? Will the algorithms you          chose remain secure? For these reasons, choose an expiration date that lets you reevaluate your choices in the relatively near future.
 
 +++
