@@ -163,6 +163,10 @@ We have received reports of issues with older GnuTLS releases. Specifically, ver
 
 Please keep in mind that you have to recompile Taskserver completely to benefit from the new version.
 
++++
+
+## Recompile Taskserver
+
 Upgrading GnuTLS does nothing to upgrade taskd -- it has to be rebuilt from scratch, which means:
 
 ```bash
