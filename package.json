@@ -1,0 +1,27 @@
+{
+  "name": "taskserver-troubleshooting",
+  "version": "1.0.0",
+  "description": "Searching for failures with your Taskserver setup",
+  "main": "index.js",
+  "scripts": {
+    "slides": "web-dev-server --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gothenburgbitfactory/taskserver-troubleshooting.git"
+  },
+  "keywords": [
+    "taskserver",
+    "taskwarrior"
+  ],
+  "author": "Gothenburg Bit Factory",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gothenburgbitfactory/taskserver-troubleshooting/issues"
+  },
+  "homepage": "https://github.com/gothenburgbitfactory/taskserver-troubleshooting#readme",
+  "dependencies": {
+    "@web/dev-server": "^0.1.8",
+    "reveal.js": "^4.1.0"
+  }
+}
