@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/gothenburgbitfactory/taskserver-troubleshooting#readme",
   "dependencies": {
-    "@web/dev-server": "^0.1.8",
-    "reveal.js": "^4.3.0"
+    "@web/dev-server": "^0.4.2",
+    "reveal.js": "^5.0.4"
   }
 }
